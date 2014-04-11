@@ -1,2 +1,5 @@
 FinalAssignment
 ===============
+In general terms, the user is given a default list of models when the client is connected to the server.  The user may then choose to upload any additional models in .js format (using the "Choose File" button), which are then added to the list of models (after pressing the "Upload" button).  Whenever the user wants to view a model in a window to the right of the menu, all they have to do is click on the picture of the model.  The user can then rotate the model, move it to another position on the screen, or zoom in or out to see the models better.
+
+While the general functionality works just fine, I did intend to include an additional feature in which the user could clear the list of models by using the "Remove All" button in the event that the user may want to make a new list of models.  However, the data is not really cleared when this happens, so I decided to scrap that feature altogether.  As this was not necessary for the project to work, there was little to lose; it just would have been convenient for users who want to make their own lists without using the default models.
